@@ -1,0 +1,23 @@
+body {
+  background: rgb(223,242,255);
+background: linear-gradient(139deg, rgba(223,242,255,0.577468487394958) 0%, rgba(248,255,255,0.31976540616246496) 40%, rgba(255,255,255,1) 81%);;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.image {
+  width: 370px;
+  margin-top: 50px;
+}
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .image {
+    width: 100%;
+  }
+}
